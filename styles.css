@@ -425,7 +425,7 @@ main .monthly-report h1 {
   font-size: 1.8rem;
 }
 
-/* ====================== MONTHLY REPORT ============================= */
+/* ====================== FAST PAYMENT ============================= */
 main .fast-payment {
   margin-top: 2rem;
   display: flex;
@@ -473,4 +473,13 @@ main .fast-payment .badge:first-child span {
 main .fast-payment .badge div {
   display: flex;
   gap: 2rem;
+}
+
+/* ====================== CANVAS ============================= */
+canvas#chart {
+  background: var(--color-white);
+  max-width: 100%;
+  margin-top: 2rem;
+  border-radius: var(--card-border-radius);
+  padding: var(--card-padding);
 }
