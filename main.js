@@ -1,7 +1,7 @@
 const chart = document.querySelector("#chart").getContext('2d');
 
 // create a new chart instance
-new Chart (chart, {
+const myChart = new Chart("chart", {
   type: 'line',
   data: {
     labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov'],
